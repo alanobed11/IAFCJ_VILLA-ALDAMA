@@ -338,6 +338,16 @@
             padding-top: 10px;
         }
 
+        /* Estilos para imágenes dentro de las secciones */
+        .content-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
         /* Sección de Herramientas (Juegos) */
         .tool-category {
             background-color: var(--bg-light);
@@ -795,8 +805,8 @@
         <!-- Header Principal -->
         <header id="main-header">
             <div class="logo-container">
-                <!-- Logo Principal -->
-                <img id="header-logo" src="https://placehold.co/60x60/7c40f2/ffffff?text=LOGO" alt="Logo de RED JUVENIL">
+                <!-- Logo Principal: Reemplaza 'URL_DE_TU_IMAGEN_LOGO_PEQUENO' con la URL pública de tu logo -->
+                <img id="header-logo" src="https://github.com/alanobed11/IAFCJ_VILLA-ALDAMA/blob/main/uno.png" alt="uno">
             </div>
             <button id="menu-toggle-button" class="menu-button" aria-label="Abrir menú">
                 <!-- Icono de menú (SVG para mejor escalabilidad) -->
@@ -809,15 +819,15 @@
         <!-- Sidebar (Menú Lateral) -->
         <aside id="sidebar">
             <nav>
-                <button class="sidebar-item" data-section="eventos">
+                <button class="sidebar-item" data-section="EVENTOS">
                     <span class="icon">📅</span>
                     <span>Eventos</span>
                 </button>
-                <button class="sidebar-item" data-section="herramientas">
+                <button class="sidebar-item" data-section="DINAMICAS">
                     <span class="icon">🛠️</span>
                     <span>Herramientas</span>
                 </button>
-                <button class="sidebar-item" data-section="temas">
+                <button class="sidebar-item" data-section="HERRAMIENTAS">
                     <span class="icon">📖</span>
                     <span>Temas</span>
                 </button>
@@ -826,7 +836,8 @@
 
         <!-- Sección de Bienvenida Central (Visible al inicio) -->
         <section id="welcome-section">
-            <img id="welcome-logo" src="https://placehold.co/150x150/7c40f2/ffffff?text=LOGO" alt="Logo de RED JUVENIL" class="welcome-logo">
+            <!-- Logo de Bienvenida: Reemplaza 'URL_DE_TU_IMAGEN_LOGO_GRANDE' con la URL pública de tu logo -->
+            <img id="welcome-logo" src="https://github.com/alanobed11/IAFCJ_VILLA-ALDAMA/blob/main/dos.png" alt="dos">
             <div class="welcome-title">
                 <h1>RED JUVENIL</h1>
                 <p>Villa Aldama</p>
@@ -842,6 +853,9 @@
                 </div>
                 <h2>Eventos Próximos</h2>
                 <div id="events-list">
+                    <!-- Ejemplo de cómo añadir una imagen dentro de una sección de contenido -->
+                    <!-- Reemplaza 'URL_DE_TU_IMAGEN_DE_EVENTO' con la URL pública de tu imagen de evento -->
+                    <img src="https://placehold.co/600x300/2050f4/ffffff?text=Imagen+de+Evento" alt="Imagen de Evento" style="display: block; margin: 0 auto;">
                     <!-- Ejemplos de Eventos (puedes personalizar o cargar desde una fuente externa) -->
                     <div class="event-card">
                         <h3>Noche de Adoración y Palabra</h3>
